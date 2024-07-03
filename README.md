@@ -22,14 +22,14 @@ This tool is useful for injecting/unloading the Dumper-7 SDK.
 
 1. Clone the repository:
 
-    ```sh
+    ```
     git clone https://github.com/your-username/your-repo-name.git
     cd your-repo-name
     ```
 
 2. Install the required Python packages:
 
-    ```sh
+    ```
     pip install -r requirements.txt
     ```
 
@@ -37,7 +37,7 @@ This tool is useful for injecting/unloading the Dumper-7 SDK.
 
 Create a `setting.ini` file in the root directory of the project with the following structure:
 
-    ```ini
+    ```
     [Settings]
     process_name = YourProcessName.exe
     dll_path = C:\\path\\to\\your\\dll.dll
@@ -49,7 +49,7 @@ Replace `YourProcessName.exe` with the name of the process you want to inject th
 
 Run the script:
 
-    ```sh
+    ```
     python injection.py
     ```
 
@@ -61,7 +61,7 @@ The script will read the process name and DLL path from the `setting.ini` file, 
 2. Create and configure the `setting.ini` file.
 3. Run the script:
 
-    ```sh
+    ```
     python injection.py
     ```
 
